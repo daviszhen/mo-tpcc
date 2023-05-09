@@ -4,14 +4,14 @@ conn=jdbc:mysql://127.0.0.1:6001/tpcc?characterSetResults=utf8&continueBatchOnEr
 user=dump
 password=111
 
-warehouses=1
+warehouses=10
 loadWorkers=4
 
-terminals=5
+terminals=50
 //To run specified transactions per terminal- runMins must equal zero
 runTxnsPerTerminal=0
 //To run for specified minutes- runTxnsPerTerminal must equal zero
-runMins=10
+runMins=660
 //Number of total transactions per minute
 limitTxnsPerMin=0
 
