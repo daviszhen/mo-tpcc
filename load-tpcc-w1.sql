@@ -1,0 +1,11 @@
+use tpcc;
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/config.csv' into table bmsql_config fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/warehouse.csv' into table bmsql_warehouse fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/district.csv' into table bmsql_district fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/customer.csv' into table bmsql_customer fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/cust-hist.csv' into table bmsql_history fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/new-order.csv' into table bmsql_new_order fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/order.csv' into table bmsql_oorder fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/order-line.csv' into table bmsql_order_line fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/item.csv' into table bmsql_item fields terminated by ',';
+load data infile '/Users/pengzhen/Documents/GitHub/mo-tpcc/stock.csv' into table bmsql_stock fields terminated by ',';
